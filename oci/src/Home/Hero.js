@@ -17,9 +17,6 @@ const Hero = () => {
           <button className="cta-button signup">Sign Up Now</button>
         </div>
       </div>
-
-      {/* Background Image */}
-      <div className="hero-background"></div>
     </section>
   );
 };

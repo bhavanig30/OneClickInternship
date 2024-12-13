@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Home/Header'; // Import the Header component
+import Hero from './Home/Hero'; // Import the Hero component
 import Footer from './Home/Footer'; // Import the Footer component
 import './App.css'; // Import the existing CSS file
 
@@ -8,6 +9,9 @@ function App() {
     <div className="App">
       {/* Add Header Component */}
       <Header />
+
+      {/* Add Hero Section */}
+      <Hero />
 
       {/* Main Content */}
       <main>
