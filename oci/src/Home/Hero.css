@@ -1,0 +1,75 @@
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://source.unsplash.com/1600x900/?internship,students');
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Make it behind other content */
+    filter: brightness(0.6); /* Add a dim effect for readability */
+  }
+  
+  .hero-content {
+    z-index: 1; /* Bring content above the background */
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .cta-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button.explore {
+    background-color: #4caf50; /* Green button */
+    color: white;
+  }
+  
+  .cta-button.explore:hover {
+    background-color: #45a049;
+  }
+  
+  .cta-button.signup {
+    background-color: #007bff; /* Blue button */
+    color: white;
+  }
+  
+  .cta-button.signup:hover {
+    background-color: #0056b3;
+  }
+  

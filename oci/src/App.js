@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Home/Header'; // Import the Header component
+import Hero from './Home/Hero'; // Hero Component
 import './App.css'; // Keep the existing CSS file
 
 function App() {
