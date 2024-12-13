@@ -1,0 +1,82 @@
+/* General Footer Styles */
+footer {
+    background-color: #0048BA;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  footer h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #FFD700;
+  }
+  
+  footer p, footer ul, footer li, footer a {
+    font-size: 0.9em;
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+  }
+  
+  /* Quick Links */
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin: 5px 0;
+  }
+  
+  /* Contact Information */
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  /* Social Media Links */
+  .social-media {
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    background-color: #FFD700;
+    color: #0048BA;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .icon:hover {
+    background-color: #FFC107;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-icons {
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+  }
+  
