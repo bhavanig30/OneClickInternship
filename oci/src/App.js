@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './Home/Header'; // Import the Header component
+import './App.css'; // Keep the existing CSS file
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Add Header Component */}
+      <Header />
+      {/* Placeholder for other content */}
+      <main>
+        <h1>Welcome to One Click Internship</h1>
+        <p>Explore internship opportunities tailored to your needs!</p>
+      </main>
     </div>
   );
 }
