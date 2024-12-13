@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the App spans full viewport height */
 }
 
 .App-logo {
@@ -27,6 +30,31 @@
 .App-link {
   color: #61dafb;
 }
+/* General Page Styling */
+html, body {
+  height: 100%; /* Full height for the page */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* App Wrapper */
+
+
+/* Main Content */
+main {
+  flex: 1; /* Fills available space */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #0048BA;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
 
 @keyframes App-logo-spin {
   from {
